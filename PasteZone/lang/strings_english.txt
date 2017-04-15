@@ -1,0 +1,3 @@
+<?php
+
+$s_plugin_PasteZone_pastehere = "Paste your screenshot or file here";

@@ -1,0 +1,3 @@
+<?php
+
+$s_plugin_PasteZone_pastehere = "Hier einfügen";
