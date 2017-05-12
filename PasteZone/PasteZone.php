@@ -12,14 +12,14 @@ class PasteZonePlugin extends MantisPlugin  {
 		$this->description = "Paste screenshots, pictures or files into 'Issue Details' form";
 		$this->page = '';
 
-		$this->version = '1.0';
+		$this->version = '1.0.1';
 		$this->requires = array(
 			'MantisCore' => '2.0.0',
 		);
 
 		$this->author = 'Pawel Rojek';
 		$this->contact = 'pawel@pawelrojek.pl';
-		$this->url = 'http://pawelrojek.pl';
+		$this->url = 'https://github.com/pawelrojek/mantisbt-pastezone';
 	}
 
 

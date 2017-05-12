@@ -7,8 +7,21 @@ $("document").ready(function(){
     {
         var myDropzone = null;
 
+        /* version <2.4 */
         if ($(".dropzone-form").length>0) myDropzone = Dropzone.forElement(".dropzone-form");
         if ($(".auto-dropzone-form").length>0) myDropzone = Dropzone.forElement(".auto-dropzone-form");
+
+        /* version >=2.4,
+           https://github.com/pawelrojek/mantisbt-pastezone/issues/1
+        */
+        if (myDropzone==null)
+        {
+            if ($('form .dropzone').length>0)
+            {
+                myDropzone = Dropzone.forElement( $('form .dropzone').closest('form')[0] );
+            }
+        }
+
 
         if (myDropzone==null) return false;
 
