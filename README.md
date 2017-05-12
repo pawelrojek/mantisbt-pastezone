@@ -1,4 +1,4 @@
-# PasteZone 1.0.0 #
+# PasteZone 1.0.1 #
 
 This plugin allows you to paste screenshots, pictures, files etc. from your clipboard directly into the "Issue Page".
 
@@ -14,7 +14,7 @@ This plugin allows you to paste screenshots, pictures, files etc. from your clip
 
 
 ## Download ##
-[Current version 1.0.0](https://github.com/pawelrojek/mantisbt-pastezone/raw/master/PasteZone-v1.0.0.zip)
+[Current version 1.0.1](https://github.com/pawelrojek/mantisbt-pastezone/releases/download/v1.0.1/PasteZone-v1.0.1.zip)
 
 
 
